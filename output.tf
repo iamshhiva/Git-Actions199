@@ -13,5 +13,4 @@ output "vpc_cidr" {
 output "subnet_cidr" {
     description = "cidr block subnet"
     value = aws_subnet.subnet.cidr_block
-  
 }
